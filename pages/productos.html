@@ -1,38 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beauty Nails</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos | Beauty Nails</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="container">
+  <div class="container">
 
-        <header>
-            <h1> Beauty Nails </h1>
-        </header>
+    <header class="cabecera">
+      <h1>Beauty Nails</h1>
+    </header>
 
-        <nav>
-            <ul>
-                <li><a href="../index.html"> Inicio </a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="../index.html">Inicio</a></li>
+        <li class="menu-item"><a href="./productos.html">Productos</a></li>
+        <li class="menu-item"><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
 
-        <main>
-            Ahora estoy en productos 
-        </main>
+    <main class="productos-main">
+      <h2 class="productos-titulo">Nuestros Productos</h2>
 
+      <section class="productos-grid">
+        <!-- Tarjeta 1 -->
+        <div class="producto-card">
+          <img src="../img/nail_card.png" alt="Producto 1">
+          <h3 class="producto-nombre">Esmalte Rosa Pastel</h3>
+          <p class="producto-precio">$3.500</p>
+        </div>
 
-        <footer>
-            <p>
-                Beauty Nails &copy; Todos los derechos reservados 
-            </p>
-        </footer>
+        <!-- Tarjeta 2 -->
+        <div class="producto-card">
+          <img src="../img/nail_card.png" alt="Producto 2">
+          <h3 class="producto-nombre">Top Coat Brillante</h3>
+          <p class="producto-precio">$4.200</p>
+        </div>
 
-    </div>
-    <script src="./js/script.js"></script>
+        <!-- Tarjeta 3 -->
+        <div class="producto-card">
+          <img src="../img/nail_card.png" alt="Producto 3">
+          <h3 class="producto-nombre">Removedor Suave</h3>
+          <p class="producto-precio">$2.800</p>
+        </div>
+
+        <!-- Tarjeta 4 -->
+        <div class="producto-card">
+          <img src="../img/nail_card.png" alt="Producto 4">
+          <h3 class="producto-nombre">Lima Profesional</h3>
+          <p class="producto-precio">$1.200</p>
+        </div>
+
+        <!-- Tarjeta 5 -->
+        <div class="producto-card">
+          <img src="../img/nail_card.png" alt="Producto 5">
+          <h3 class="producto-nombre">Aceite Nutritivo</h3>
+          <p class="producto-precio">$3.000</p>
+        </div>
+
+        <!-- Tarjeta 6 -->
+        <div class="producto-card">
+          <img src="../img/nail_card.png" alt="Producto 6">
+          <h3 class="producto-nombre">Set de Brochas</h3>
+          <p class="producto-precio">$6.000</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <p>Beauty Nails &copy; Todos los derechos reservados</p>
+    </footer>
+
+  </div>
+  <script src="../js/script.js"></script>
 </body>
 </html>

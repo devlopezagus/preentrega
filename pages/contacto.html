@@ -1,38 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beauty Nails</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Beauty Nails</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="container">
+  <div class="container">
 
-        <header>
-            <h1> Beauty Nails </h1>
-        </header>
+    <header class="cabecera">
+      <h1>Beauty Nails</h1>
+    </header>
 
-        <nav>
-            <ul>
-                <li><a href="../index.html"> Inicio </a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="../index.html">Inicio</a></li>
+        <li class="menu-item"><a href="./productos.html">Productos</a></li>
+        <li class="menu-item"><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
 
-        <main>
-            Ahora estoy en contacto
-        </main>
+    <main class="contacto-main">
+      <h2 class="contacto-titulo">Contáctanos</h2>
 
+      <section class="contacto-contenido">
+        <!-- IZQUIERDA -->
+        <div class="contacto-info">
+          <iframe
+            class="contacto-mapa"
+            src="https://www.google.com/maps?q=Ministerio+de+Educación+de+Buenos+Aires&output=embed"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
 
-        <footer>
-            <p>
-                Beauty Nails &copy; Todos los derechos reservados 
-            </p>
-        </footer>
+          <div class="contacto-detalles">
+            <p><strong>Dirección:</strong> Av. Paseo Colón 255, C1063 Buenos Aires</p>
+            <p><strong>Teléfono:</strong> +54 11 4129-1000</p>
+            <p><strong>Email:</strong> contacto@beautynails.com</p>
+            <div class="contacto-redes">
+              <a href="#"><img src="../img/facebook_logo_icon_147291.ico" alt="Facebook"></a>
+              <a href="#"><img src="../img/Instagram_icon-icons.com_66804.ico" alt="Instagram"></a>
+              <a href="#"><img src="../img/media_social_tiktok_icon_124256.ico" alt="TikTok"></a>
+            </div>
+          </div>
+        </div>
 
-    </div>
-    <script src="./js/script.js"></script>
+        <!-- DERECHA -->
+        <div class="contacto-formulario">
+          <form action="https://formspree.io/f/mdkwykqp" method="post">
+            <div class="form-grupo">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-grupo">
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" name="apellido" required>
+            </div>
+
+            <div class="form-grupo">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <div class="form-grupo">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono">
+            </div>
+
+            <div class="form-grupo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <p>Beauty Nails &copy; Todos los derechos reservados</p>
+    </footer>
+
+  </div>
+  <script src="../js/script.js"></script>
 </body>
 </html>
