@@ -174,7 +174,9 @@ body {
 
 
 
-/* ===== PRODUCTOS ===== */
+/******************************
+    Pagina productos.html
+******************************/
 .productos-main {
   flex: 1;
   padding: 2rem;
@@ -257,7 +259,9 @@ body {
 }
 
 
-/* ===== CONTACTO ===== */
+/******************************
+    Pagina contacto.html
+******************************/
 .contacto-main {
   flex: 1;
   padding: 2rem;
@@ -279,7 +283,7 @@ body {
   align-items: start;
 }
 
-/* ==== LADO IZQUIERDO ==== */
+/* ==== IZQUIERDO mapa de visita ==== */
 .contacto-info {
   background-color: #fff;
   border-radius: 15px;
@@ -316,7 +320,7 @@ body {
   transform: scale(1.1);
 }
 
-/* ==== LADO DERECHO ==== */
+/* ==== DERECHO formulario ==== */
 .contacto-formulario {
   background-color: #fce4ec;
   border-radius: 15px;
