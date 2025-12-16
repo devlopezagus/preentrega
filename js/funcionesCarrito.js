@@ -20,6 +20,7 @@ export const eliminarProducto = (id) => {
     const carrito = obtenerCarrito();
     // splice para eliminar el producto en la posición id, modifica el carrito
     carrito.splice(id, 1);  // eliminar el producto en la posición id, solo 1 elemento
+    // si el tercer elemento no se pasa, elimina hasta el final del array
     guardarCarrito(carrito);
     actualizarContador(carrito);
     mostrarMensaje("Producto eliminado del carrito.");

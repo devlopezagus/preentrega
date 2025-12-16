@@ -460,3 +460,81 @@ body {
     padding: 1.5rem;
   }
 }
+
+
+
+
+
+/* =========================
+   pagina carrito.html
+   ========================= */
+
+/* ALERT CARRITO VACÍO */
+.alert-carrito-vacio {
+  grid-column: 1 / -1;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 18px 24px;
+
+  /* rosa muy suave */
+  background-color: #fdecef;       
+  color: #8a2c3c;        
+  /* texto elegante */          
+
+  border: 1px solid #f5b7c4;
+  border-radius: 12px;
+
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+/* == BOTÓN ELIMINAR PRODUCTO DE CARRITO == */
+
+.btn-eliminar-carrito {
+  background-color: #fdecef;   /* rosa claro */
+  color: #8a2c3c;
+
+  border: 1px solid #f5b7c4;
+}
+
+.btn-eliminar-carrito:hover {
+  background-color: #f5b7c4;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.btn-eliminar-carrito:active {
+  transform: scale(0.95);
+}
+
+
+/* == BOTÓN VACIAR CARRITO == */
+
+.btn-vaciar-carrito {
+  background-color: #e98fa6; /* rosa principal */
+  color: #ffffff;
+
+  border: none;
+  padding: 0.7rem 1.6rem;
+  border-radius: 10px;
+
+  font-weight: bold;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-vaciar-carrito:hover {
+  background-color: #d85c72; /* más fuerte */
+  transform: translateY(-2px);
+}
+
+.btn-vaciar-carrito:active {
+  transform: scale(0.95);
+}
