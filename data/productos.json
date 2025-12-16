@@ -26,5 +26,20 @@
         "precio": 3600,
         "imagen": "img/verde_menta.jpg",
         "descripcion": "Esmalte de uñas en tono verde menta, perfecto para un estilo moderno y vibrante."
+    },
+    {   
+        "id": "5",
+        "nombre": "Crema Mary Kay",
+        "precio": 3800,
+        "imagen": "img/crema_mary_kay.jpg",
+        "descripcion": "Crema hidratante de la reconocida marca Mary Kay, ideal para el cuidado diario de la piel."
+    },
+    {   
+        "id": "6",
+        "nombre": "Crema Exfoliante",
+        "precio": 6000,
+        "imagen": "img/crema_exfoliante.jpg",
+        "descripcion": "Crema exfoliante suave que ayuda a eliminar las células muertas y revitalizar la piel."
     }
+
 ]

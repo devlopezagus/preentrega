@@ -1,11 +1,11 @@
 import { agregarAlCarrito } from "./funcionesCarrito.js";
 import {obtenerCarrito } from "./storage.js";
-import { actualizasContador, mostrarMensaje } from "./ui.js"
+import { actualizarContador, mostrarMensaje } from "./ui.js"
 
 document.addEventListener("DOMContentLoaded", () => {
     const contenedor = document.getElementById("contenedor-tarjetas");
     const carrito = obtenerCarrito()
-    actualizarCarrito(carrito)
+    actualizarContador(carrito)
 
     fetch("./data/productos.json")
     .then((response) => {

@@ -1,5 +1,5 @@
 // me trae las funciones necesarias para crear las tarjetas y manejar el carrito
-import { agregarAlCarrito } from './carrito.js';
+import { agregarAlCarrito } from './funcionesCarrito.js';
 // me trae la funcion para obtener el carrito almacenado (en localStorage)
 import { obtenerCarrito } from './storage.js';
 import {actualizarContador, mostrarMensaje } from './ui.js';
