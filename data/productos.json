@@ -1,0 +1,30 @@
+[
+    {   
+        "id": "1",
+        "nombre": "Esmalte Rosa Pastel",
+        "precio": 3500,
+        "imagen": "img/rosa_pastel.jpg",
+        "descripcion": "Esmalte de uñas en tono rosa pastel, ideal para un look suave y elegante."
+    },
+    {   
+        "id": "2",
+        "nombre": "Esmalte Rojo Intenso",
+        "precio": 4000,
+        "imagen": "img/rojo_intenso.jpg",
+        "descripcion": "Esmalte de uñas en tono rojo intenso, perfecto para ocasiones especiales."
+    },
+    {   
+        "id": "3",
+        "nombre": "Esmalte Azul Cielo",
+        "precio": 3700,
+        "imagen": "img/azul_cielo.jpg",
+        "descripcion": "Esmalte de uñas en tono azul cielo, ideal para un look fresco y veraniego."
+    },
+    {   
+        "id": "4",
+        "nombre": "Esmalte Verde Menta",
+        "precio": 3600,
+        "imagen": "img/verde_menta.jpg",
+        "descripcion": "Esmalte de uñas en tono verde menta, perfecto para un estilo moderno y vibrante."
+    }
+]

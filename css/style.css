@@ -62,6 +62,37 @@ body {
   color: #d4af37;
 }
 
+/* ===== CARRITO EN MENÚ ===== */
+.menu-item .carrito-icono {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #e98fa6;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover igual al menú */
+.menu-item .carrito-icono:hover {
+  color: #d4af37;
+}
+
+/* Contador carrito */
+#contador-carrito {
+  background-color: #e98fa6;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 7px;
+  border-radius: 50%;
+  line-height: 1;
+}
+
+
+
+
+
 /* ===== BANNER ===== */
 .banner img {
   width: 100%;
@@ -228,7 +259,7 @@ body {
 }
 
 .producto-nombre {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #555;
   margin: 0.8rem 0 0.3rem;
 }
@@ -238,6 +269,50 @@ body {
   font-weight: bold;
   margin-bottom: 1rem;
 }
+
+
+/* ===== BOTÓN AGREGAR AL CARRITO ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+
+  width: 90%;
+  margin: 0.8rem auto 1rem;
+
+  background-color: #e98fa6;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover elegante */
+.btn:hover {
+  background-color: #d47893;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(233, 143, 166, 0.4);
+}
+
+/* Click */
+.btn:active {
+  transform: scale(0.97);
+}
+
+/* Focus accesible */
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(233, 143, 166, 0.4);
+}
+
+
 
 /* ===== RESPONSIVE ===== */
 @media (min-width: 1024px) {

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos | Beauty Nails</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container">
+
+    <header class="cabecera">
+      <h1>Beauty Nails</h1>
+    </header>
+
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="../index.html">Inicio</a></li>
+        <li class="menu-item"><a href="./productos.html">Productos</a></li>
+        <li class="menu-item"><a href="./contacto.html">Contacto</a></li>
+        <li class="menu-item"><a href="./carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0</span>
+          </a></li>
+      </ul>
+    </nav>
+
+    <main class="productos-main">
+      <h2 class="productos-titulo">Carrito de Compras</h2>
+
+      <section id="contenedor-carrito">    
+        <!-- Productos del carrito -->
+      </section>
+
+      <section class="acciones-carrito" id="acciones-carrito">
+        <!-- botones de eliminar y finalzar compra se agregan desde js -->
+      </section>
+
+      <section id="resumen-carrito">
+        <!-- aca irir el resumen del carrito -->
+      </section>
+
+    </main>
+
+    <footer class="pie">
+      <p>Beauty Nails &copy; Todos los derechos reservados</p>
+    </footer>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../js/carrito.js" type="module"></script>
+</body>
+</html>

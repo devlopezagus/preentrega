@@ -1,14 +1,18 @@
-const KEY = "carrito";
+// Llave para almacenar el carrito en el localStorage
+const KEY = "carrito"
 
+// Guarda el carrito en el localStorage
 export const guardarCarrito = (carrito) => {
     localStorage.setItem(KEY, JSON.stringify(carrito));
 };
 
+// Obtiene el carrito del localStorage
 export const obtenerCarrito = () => {
-    return JSON.parse(localStorage.getItem(KEY)) || [];
+    const carritoJSON = localStorage.getItem(KEY);
+    return carritoJSON ? JSON.parse(carritoJSON) : [];
 };
 
-// agregamos "Storage" al nombre de la función para evitar conflictos
+// Vacía el carrito en el localStorage
 export const vaciarCarritoStorage = () => {
     localStorage.removeItem(KEY);
 };
